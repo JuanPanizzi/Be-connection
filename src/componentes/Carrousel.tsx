@@ -13,13 +13,13 @@ export const Carrousel = () => {
     {
       original: mujeresDesayuno,
       title: 'Transporte seguro y eficiente',
-      description:
+      subtitle:
         'Tenemos más de 25 años de experiencia. Somos una pyme, y nuestra flota cuenta con chasis y semis tipo saider. Llevamos volumen y poco peso. Contamos con chasis de 5 y 10 mil kilos y semis de 15 y 22 mil kilos.'
     },
     {
       original: mujeresEspalda,
       title: 'Calidad y seguridad en cada transporte',
-      description:
+      subtitle:
         'Nuestro equipo está comprometido con ofrecer un servicio seguro y confiable. Nos especializamos en transporte de carga ligera y volumétrica.'
     }
   ];
