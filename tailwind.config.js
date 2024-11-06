@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'purple1': '#B346A1'
+        'purple1': '#B346A1',
+        'rosa1': '#f0c4dd'
       }
     },
   },

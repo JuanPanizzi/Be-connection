@@ -1,6 +1,6 @@
-import mujeresDesayuno from '../beConnection_Assets/Carrousel/13.jpg';
+import mujeresDesayuno from '../../beConnection_Assets/Carrousel/13.jpg';
 
-import mujeresEspalda from '../beConnection_Assets/Carrousel/10.jpg';
+import mujeresEspalda from '../../beConnection_Assets/Carrousel/10.jpg';
 
 import ImageGallery from 'react-image-gallery';
 import { useState } from 'react';
