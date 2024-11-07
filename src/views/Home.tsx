@@ -1,6 +1,7 @@
 import { Barra } from "../componentes/Barra"
 import { BeInfo } from "../componentes/home/BeInfo"
 import { Carrousel } from "../componentes/home/Carrousel"
+import { ClubBe } from "../componentes/home/ClubBe"
 import { ConocerMás } from "../componentes/home/ConocerMás"
 
 export const Home = () => {
@@ -10,6 +11,7 @@ export const Home = () => {
       <BeInfo/>
       <ConocerMás/>
       <Barra text1="¿QURÉS SER PARTE DE UNO DE NUESTROS" text2="DESAYUNOS?" />
+      <ClubBe/>
       
     </>
   )
