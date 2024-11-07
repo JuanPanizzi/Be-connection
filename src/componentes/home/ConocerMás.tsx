@@ -20,7 +20,7 @@ export const ConocerMás = () => {
           <div className='lg:px-10  text-center'>
 
           <h3 className="lg:text-2xl lora text-purple1  lg:py-5">¿POR QUÉ UN CLUB DE MUJERES EN NORDELTA?</h3>
-          <p className="text-gray-600 mt-2 lora text-left lg:w-[95%] lg:mx-auto lg:pl-3 lg:py-4">La zona de Nordelta y alrededores tuvo un gran crecimiento en los últimos años. Aún no tiene una identidad definida, pero si tanto los barrios que componen Nordelta, como los barrios vecinos, continuan creciendo y haciendose fuertes como comunidad. 
+          <p className="text-gray-600 montserrat mt-2 lora text-left lg:w-[95%] lg:mx-auto lg:pl-3 lg:py-4">La zona de Nordelta y alrededores tuvo un gran crecimiento en los últimos años. Aún no tiene una identidad definida, pero si tanto los barrios que componen Nordelta, como los barrios vecinos, continuan creciendo y haciendose fuertes como comunidad. 
           <br /> Como vecina de Nordelta, conozco muy bien este día a día, los gustos y preferencias en particular de las mujeres. Por eso Be Connections nace para conectar, unir y generar sinergías. </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ export const ConocerMás = () => {
           <div className='lg:px-10  text-center'>
 
          <h3 className="lg:text-2xl lora text-purple1  lg:py-5">¿ME PUEDO SUMAR SI NO SOY VECINA DE NORDELTA?</h3>
-          <p className="text-gray-600 mt-2 lora text-left lg:w-[95%] lg:mx-auto lg:pl-3 lg:py-4">Si bien la mayoría de nuestras asistentes son vecinas de esta zona, todas son bienvenidas a sumarse</p>
+          <p className="text-gray-600 montserrat mt-2 lora text-left lg:w-[95%] lg:mx-auto lg:pl-3 lg:py-4">Si bien la mayoría de nuestras asistentes son vecinas de esta zona, todas son bienvenidas a sumarse</p>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ export const ConocerMás = () => {
           />
           <div className='lg:px-10  text-center'>
           <h3 className="lg:text-2xl lora text-purple1  lg:py-5">¿QUÉ TIPO DE EVENTOS OFRECEMOS A LAS MUJERES DE NUESTRA COMUNIDAD?</h3>
-          <p className="text-gray-600 mt-2 lora text-left lg:w-[95%] lg:mx-auto lg:pl-3 lg:py-4">Desayunos temáticos relacionados con Make up, Moda, Deco & Lifestyle, Travel, Arte, Wellness, en las mejores locaciones de Nordelta y también en Punta del Este.
+          <p className="text-gray-600 montserrat mt-2 lora text-left lg:w-[95%] lg:mx-auto lg:pl-3 lg:py-4">Desayunos temáticos relacionados con Make up, Moda, Deco & Lifestyle, Travel, Arte, Wellness, en las mejores locaciones de Nordelta y también en Punta del Este.
 Además generamos eventos y actividades de Networking que concovocan a emprendedoras y mujeres profesionales de la zona. 
 Cada evento es planeado y llevado a cabo cuidando cada detalle: ambientación, catering, obsequios, logrando que cada experiencia... Más</p>
 </div>

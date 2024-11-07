@@ -18,7 +18,9 @@
   font-weight: 400;
   font-style: normal;
 }
-
+.viaoda{
+  font-family: "Viaoda Libre", serif;
+}
 .lora {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
