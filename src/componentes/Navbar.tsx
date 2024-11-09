@@ -23,21 +23,21 @@ export const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="h-full w-10 mr-2" />
-          <span className="text-white font-bold text-lg">Mi Página</span>
+          <span className={`font-bold text-lg ${scrolled ? 'text-black' : 'text-white'}`}>Mi Página</span>
         </div>
 
         {/* Menú en pantallas grandes */}
         <div className="hidden md:flex space-x-4">
-          <a href="#home" className="text-white hover:text-gray-200">Inicio</a>
-          <a href="#about" className="text-white hover:text-gray-200">Nosotros</a>
-          <a href="#services" className="text-white hover:text-gray-200">Servicios</a>
-          <a href="#contact" className="text-white hover:text-gray-200">Contacto</a>
+          <a href="#home" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>Inicio</a>
+          <a href="#about" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>Nosotros</a>
+          <a href="#services" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>Servicios</a>
+          <a href="#contact" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>Contacto</a>
         </div>
 
         {/* Menú hamburguesa para pantallas pequeñas */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="text-white md:hidden focus:outline-none"
+          className={`md:hidden focus:outline-none ${scrolled ? 'text-black' : 'text-white'}`}
         >
           <svg
             className="w-6 h-6"
