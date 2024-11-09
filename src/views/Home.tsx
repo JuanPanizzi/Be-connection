@@ -14,7 +14,7 @@ export const Home = () => {
       <Barra text1="¿QURÉS SER PARTE DE UNO DE NUESTROS" text2="DESAYUNOS?" />
       <ClubBe/>
       <Marcas/>
-      <Barra text1="RECIBÍ INVITACIONES Y NOVEDADES EN TU WHATSAPP"/>
+      <Barra text1="RECIBÍ INVITACIONES Y NOVEDADES EN TU" text2="WHATSAPP"/>
     </>
   )
 }

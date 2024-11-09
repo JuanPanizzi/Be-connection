@@ -18,7 +18,7 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 w-full z-50 p-4 transition-colors duration-300 ${scrolled ? 'bg-white/60 backdrop-blur-sm' : 'bg-transparent'}`}>
+    <nav className={`fixed top-0 w-full z-50 p-4 transition-colors duration-300 ${scrolled ? 'bg-black-100/60 backdrop-blur-sm' : 'bg-transparent'}`}>
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
@@ -58,7 +58,7 @@ export const Navbar = () => {
 
       {/* Menú desplegable para pantallas pequeñas alineado a la derecha */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-end pr-4 mt-2 bg-white/90 backdrop-blur-sm">
+        <div className="md:hidden flex flex-col items-end pr-4 mt-2 bg-black/90 backdrop-blur-sm">
           <a href="#home" className="block px-4 py-2 text-blue-800 hover:bg-blue-700">Inicio</a>
           <a href="#about" className="block px-4 py-2 text-blue-800 hover:bg-blue-700">Nosotros</a>
           <a href="#services" className="block px-4 py-2 text-blue-800 hover:bg-blue-700">Servicios</a>
