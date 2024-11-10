@@ -30,10 +30,10 @@ export const RecomendacionesInfo = () => {
             {recomendaciones.map((recomendacion) => (
               <div
                 key={recomendacion.id}
-                className="relative h-40 md:h-56 bg-cover bg-center hover:bg-purple1 rounded-lg shadow-lg "
+                className="relative h-40 md:h-56 bg-cover bg-center hover:bg-purple1  shadow-lg "
                 style={{ backgroundImage: `url(${recomendacion.imagen})` }}
               >
-                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 hover:bg-purple1 hover:bg-opacity-100 transition-all duration-300 ">
                   <h3 className="text-white md:text-4xl md:w-1/2 text-center ">{recomendacion.titulo}</h3>
                 </div>
               </div>
