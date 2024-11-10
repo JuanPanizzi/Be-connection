@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import logo from '../beConnection_Assets/logo-be-connection.png';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,10 +29,12 @@ export const Navbar = () => {
 
         {/* Menú en pantallas grandes */}
         <div className="hidden md:flex space-x-4">
-          <a href="#home" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>Inicio</a>
-          <a href="#about" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>Nosotros</a>
-          <a href="#services" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>Servicios</a>
-          <a href="#contact" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>Contacto</a>
+          <Link to="#home" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>INICIO</Link>
+          <Link to="#about" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>SOBRE BE!</Link>
+          <Link to="/recomendaciones" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>RECOMENDADOS BE!</Link>
+          <Link to="#contact" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>NEWSLETTER</Link>
+          <Link to="#contact" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>CLUB BE!</Link>
+          <Link to="#contact" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>CONTACTO</Link>
         </div>
 
         {/* Menú hamburguesa para pantallas pequeñas */}
