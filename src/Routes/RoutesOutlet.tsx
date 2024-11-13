@@ -3,6 +3,7 @@ import ScrollToTop from "../componentes/shared/ScrollTop"
 import { MainLayout } from "../views/MainLayout"
 import { Home } from "../views/Home"
 import { Recomendaciones } from "../views/Recomendaciones"
+import { Newsletter } from "../views/Newsletter"
 
 export const RoutesOutlet = () => {
   return (
@@ -14,6 +15,8 @@ export const RoutesOutlet = () => {
 
                 <Route index element={<Home />} />
                 <Route path="recomendaciones" element={<Recomendaciones/>}/>
+                <Route path="newsletter" element={<Newsletter/>}/>
+                
 
             </Route>
 
