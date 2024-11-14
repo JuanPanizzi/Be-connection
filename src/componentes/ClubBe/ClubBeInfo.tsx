@@ -1,17 +1,15 @@
-import club from '../../beConnection_Assets/club-be-imagenes/1-clube-be.png'
+// import rose from '../../beConnection_Assets/home-imagnees/2-quien-detras.jpg'
+import rose from '../../beConnection_Assets/club-be-imagenes/1-clube-be.png'
 import { Button } from '../shared/Button'
-export const ClubBe = () => {
+
+export const ClubBeInfo = () => {
   return (
-    <article>
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 ">
-        <div className="flex  justify-center items-center p-4 md:p-8 rounded-lg  col-span-1">
-          <img
-            src={club}
-            alt="beConnections"
-            className="w-full object-left h-auto object-contain rounded-t-[40%]"
-          />
-        </div>
-        <div className="  flex flex-col justify-center py-16  text-right lg:p-16 col-span-2">
+    <>
+<article className='flex '>
+<div className=' w-[40%]'>
+        <img src={rose} alt="rose" className='px-6 py-32 object-left mx-auto h-full object-contain rounded-t-[40%]'/>
+    </div>
+    <div className="w-[60%]  flex flex-col justify-center py-16  text-right lg:p-16 col-span-2">
           <div>
 
             <h1 className="text-2xl mb-2 lg:text-6xl">CLUB BE!</h1>
@@ -28,9 +26,11 @@ export const ClubBe = () => {
             </p>
             </div>
 
-              <Button text="MÁS INFO" className='ml-auto min-w-[300px]  py-4 text-2xl mt-10 mr-4' />
+              <Button text="SUMATE" className='ml-auto min-w-[300px]  py-4 text-2xl mt-10 mr-4' />
         </div>
-      </section>
-    </article>
+   
+      
+        </article>
+    </>
   )
 }
