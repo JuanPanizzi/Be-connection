@@ -14,13 +14,13 @@ export const Carrousel = () => {
   const imagenes = [
     {
       original: mujeresDesayuno,
-      title: 'Transporte seguro y eficiente',
+      title: 'DESCUBRÍ LA MAGIA DE NUESTROS DESAYUNOS Y ENCUENTROS',
       subtitle:
         'Tenemos más de 25 años de experiencia. Somos una pyme, y nuestra flota cuenta con chasis y semis tipo saider. Llevamos volumen y poco peso. Contamos con chasis de 5 y 10 mil kilos y semis de 15 y 22 mil kilos.'
     },
     {
       original: mujeresEspalda,
-      title: 'Calidad y seguridad en cada transporte',
+      title: 'CONÉCTATE INSPIRATE Y CRECE JUNTO A MUJERES EXTRAORDINARIAS',
       subtitle:
         'Nuestro equipo está comprometido con ofrecer un servicio seguro y confiable. Nos especializamos en transporte de carga ligera y volumétrica.'
     }
@@ -34,7 +34,7 @@ const desc = {desc1: "hola", desc2: "chau"}
     <section className="relative w-full h-screen flex items-center justify-center bg-black text-white">
       <div className="absolute z-10 text-center p-4">
         <h1
-          className="text-3xl lg:text-6xl font-bold leading-snug"
+          className="text-3xl lg:text-6xl leading-snug text-white viaoda"
           style={{ textShadow: '1px 1px 30px black' }}
         >
           {imagenes[currentIndex].title}

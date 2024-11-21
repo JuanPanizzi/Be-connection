@@ -34,7 +34,7 @@ export const Navbar = () => {
           <Link to="/recomendaciones" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>RECOMENDADOS BE!</Link>
           <Link to="/newsletter" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>NEWSLETTER</Link>
           <Link to="/club" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>CLUB BE!</Link>
-          <Link to="#contact" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>CONTACTO</Link>
+          <Link to="/contacto" className={`hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>CONTACTO</Link>
         </div>
 
         {/* Menú hamburguesa para pantallas pequeñas */}

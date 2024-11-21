@@ -5,6 +5,7 @@ import { Home } from "../views/Home"
 import { Recomendaciones } from "../views/Recomendaciones"
 import { Newsletter } from "../views/Newsletter"
 import { ClubBe } from "../views/ClubBe"
+import { Contacto } from "../views/Contacto"
 
 export const RoutesOutlet = () => {
   return (
@@ -18,6 +19,8 @@ export const RoutesOutlet = () => {
                 <Route path="recomendaciones" element={<Recomendaciones/>}/>
                 <Route path="newsletter" element={<Newsletter/>}/>
                 <Route path="club" element={<ClubBe/>}/>
+                <Route path="contacto" element={<Contacto/>}/>
+
 
                 
 
