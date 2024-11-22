@@ -19,30 +19,30 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 w-full z-50  transition-colors duration-300 ${scrolled ? 'bg-black-100/60 backdrop-blur-sm' : 'bg-black bg-opacity-15'}`}>
+    <nav className={`fixed top-0 w-full z-50  transition-colors duration-300 bg-black ${scrolled ? 'bg-opacity-75' : ' bg-opacity-60'}`}>
       <div className="container mx-auto flex h-full justify-between items-center">
         {/* Logo */}
-          <img src={logo} alt="Logo" className="h-full max-w-16 mr-2" />
+          <img src={logo} alt="Logo" className="h-full max-w-8 sm:max-w-16 mr-2" />
 
         {/* Menú en pantallas grandes */}
         <div className="hidden md:flex space-x-8 pr-16">
-          <Link to="#home" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>INICIO</Link>
-          <Link to="#about" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>SOBRE BE!</Link>
-          <Link to="/recomendaciones" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>RECOMENDADOS BE!</Link>
-          <Link to="/newsletter" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>NEWSLETTER</Link>
-          <Link to="/club" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>CLUB BE!</Link>
-          <Link to="/contacto" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>CONTACTO</Link>
+          <Link to="#home" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>INICIO</Link>
+          <Link to="#about" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>SOBRE BE!</Link>
+          <Link to="/recomendaciones" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>RECOMENDADOS BE!</Link>
+          <Link to="/newsletter" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>NEWSLETTER</Link>
+          <Link to="/club" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>CLUB BE!</Link>
+          <Link to="/contacto" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>CONTACTO</Link>
         </div>
 
         {/* Menú hamburguesa para pantallas pequeñas */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className={`md:hidden focus:outline-none ${scrolled ? 'text-black' : 'text-white'}`}
+          className={`md:hidden focus:outline-none ${scrolled ? 'text-white' : 'text-white'}`}
         >
           <svg
             className="w-6 h-6"
             fill="none"
-            stroke="currentColor"
+            stroke={`white`}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -58,11 +58,19 @@ export const Navbar = () => {
 
       {/* Menú desplegable para pantallas pequeñas alineado a la derecha */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-end pr-4 mt-2 bg-black/90 backdrop-blur-sm">
-          <a href="#home" className="block px-4 py-2 text-blue-800 hover:bg-blue-700">Inicio</a>
-          <a href="#about" className="block px-4 py-2 text-blue-800 hover:bg-blue-700">Nosotros</a>
-          <a href="#services" className="block px-4 py-2 text-blue-800 hover:bg-blue-700">Servicios</a>
-          <a href="#contact" className="block px-4 py-2 text-blue-800 hover:bg-blue-700">Contacto</a>
+        <div className={`sm:hidden flex flex-col items-end pr-4 mt-2  bg-black ${scrolled ? 'bg-opacity-0' : ' bg-opacity-0'}`}>
+          <a href="#home" className="block px-4 py-2 text-white hover:bg-purple1" style={{
+              textShadow: '2px 2px 2px black'
+          }}>INICIO</a>
+          <a href="#about" className="block px-4 py-2 text-white hover:bg-purple1" style={{
+              textShadow: '2px 2px 2px black'
+          }} >NOSOTROS</a>
+          <a href="#services" className="block px-4 py-2 text-white hover:bg-purple1"  style={{
+              textShadow: '2px 2px 2px black'
+          }}>SERVICIOS</a>
+          <a href="#contact" className="block px-4 py-2 text-white hover:bg-purple1"  style={{
+              textShadow: '2px 2px 2px black'
+          }}>CONTACTO</a>
         </div>
       )}
     </nav>
