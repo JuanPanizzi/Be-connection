@@ -19,19 +19,19 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 w-full z-50  transition-colors duration-300 ${scrolled ? 'bg-black-100/60 backdrop-blur-sm' : 'bg-gray-900 bg-opacity-25'}`}>
+    <nav className={`fixed top-0 w-full z-50  transition-colors duration-300 ${scrolled ? 'bg-black-100/60 backdrop-blur-sm' : 'bg-black bg-opacity-15'}`}>
       <div className="container mx-auto flex h-full justify-between items-center">
         {/* Logo */}
           <img src={logo} alt="Logo" className="h-full max-w-16 mr-2" />
 
         {/* Menú en pantallas grandes */}
         <div className="hidden md:flex space-x-8 pr-16">
-          <Link to="#home" className={`lg:text-lg hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>INICIO</Link>
-          <Link to="#about" className={`lg:text-lg hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>SOBRE BE!</Link>
-          <Link to="/recomendaciones" className={`lg:text-lg hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>RECOMENDADOS BE!</Link>
-          <Link to="/newsletter" className={`lg:text-lg hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>NEWSLETTER</Link>
-          <Link to="/club" className={`lg:text-lg hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>CLUB BE!</Link>
-          <Link to="/contacto" className={`lg:text-lg hover:text-gray-400 ${scrolled ? 'text-black' : 'text-white'}`}>CONTACTO</Link>
+          <Link to="#home" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>INICIO</Link>
+          <Link to="#about" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>SOBRE BE!</Link>
+          <Link to="/recomendaciones" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>RECOMENDADOS BE!</Link>
+          <Link to="/newsletter" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>NEWSLETTER</Link>
+          <Link to="/club" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>CLUB BE!</Link>
+          <Link to="/contacto" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-black' : 'text-white'}`}>CONTACTO</Link>
         </div>
 
         {/* Menú hamburguesa para pantallas pequeñas */}
