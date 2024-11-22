@@ -35,36 +35,36 @@ export const Carrousel = () => {
     setCurrentIndex(index);
   };
   return (
-    <section className="relative w-full h-screen flex  justify-center bg-black text-white">
-      <div className="absolute z-10 text-center p-4 py-32">
-        <h1
-          className="text-3xl lg:text-[4.2rem] leading-relaxed text-white viaoda "
-          style={{
-            textShadow: '2px 2px 4px black',
-            lineHeight: 1.3
-          }}
-        >
-          {imagenes[currentIndex].title}
-        </h1>
+      <section className="relative w-full h-screen flex  justify-center bg-black text-white">
+        <div className="absolute z-10 text-center lg:p-4 lg:py-32">
+          <h1
+            className="text-3xl lg:text-[4.2rem] leading-relaxed text-white viaoda "
+            style={{
+              textShadow: '2px 2px 4px black',
+              lineHeight: 1.3
+            }}
+          >
+            {imagenes[currentIndex].title}
+          </h1>
 
-      <button className=' max-w-[300px] text-white rounded  border-[3px] border-white p-3 w-72 sm:text-2xl mt-12   '
-      style={{ boxShadow: '2px 2px 10px black'}} >SUMATE</button>
-      </div>
+        <button className=' max-w-[300px] text-white rounded  border-[3px] border-white p-3 w-72 sm:text-2xl mt-12   '
+        style={{ boxShadow: '2px 2px 10px black'}} >SUMATE</button>
+        </div>
 
 
-      <ImageGallery
-        items={imagenes}
-        showFullscreenButton={false}
-        showPlayButton={false}
-        showThumbnails={false}
-        showNav={false}
-        showBullets={true}
-        autoPlay={true}
-        additionalClass="custom-gallery"
-        onSlide={handleSlideChange}
-        slideDuration={1000}
-        slideInterval={3000}
-      />
-    </section>
+        <ImageGallery
+          items={imagenes}
+          showFullscreenButton={false}
+          showPlayButton={false}
+          showThumbnails={false}
+          showNav={false}
+          showBullets={true}
+          autoPlay={true}
+          additionalClass="custom-gallery"
+          onSlide={handleSlideChange}
+          slideDuration={1000}
+          slideInterval={3000}
+        />
+      </section>
   );
 };
