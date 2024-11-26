@@ -7,7 +7,6 @@ import { useState } from 'react';
 
 import 'react-image-gallery/styles/css/image-gallery.css';
 import './Carrousel.css';
-import { Button } from '../shared/Button';
 
 export const Carrousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -35,36 +34,36 @@ export const Carrousel = () => {
     setCurrentIndex(index);
   };
   return (
-      <section className="relative w-full h-screen flex  justify-center bg-black text-white">
-        <div className="absolute z-10 text-center lg:p-4 lg:py-32">
-          <h1
-            className="text-3xl lg:text-[4.2rem] leading-relaxed text-white viaoda "
-            style={{
-              textShadow: '2px 2px 4px black',
-              lineHeight: 1.3
-            }}
-          >
-            {imagenes[currentIndex].title}
-          </h1>
+    <section className="relative w-full h-screen flex  justify-center bg-black text-white">
+      <div className=" absolute top-10 min-[380px]:top-20 sm:top-28  z-10 text-center p-4 lg:p-4 lg:py-32 bg">
+        <h1
+          className="text-base min-[500px]:text-xl sm:text-2xl lg:text-[4.2rem] leading-relaxed text-white viaoda "
+          style={{
+            textShadow: '2px 2px 4px black',
+            lineHeight: 1.3
+          }}
+        >
+          {imagenes[currentIndex].title}
+        </h1>
 
-        <button className=' max-w-[300px] text-white rounded  border-[3px] border-white p-3 w-72 sm:text-2xl mt-12   '
-        style={{ boxShadow: '2px 2px 10px black'}} >SUMATE</button>
-        </div>
+        <button className=' lg:max-w-[300px] text-white rounded border-[1.5px] lg:border-[3px] border-white w-20 sm:w-28 p-1 mt-3 lg:p-3 lg:w-72 text-[0.5rem] min-[500px]:text-[0.7rem] sm:text-[0.8rem] lg:text-xl lg:mt-12   '
+          style={{ boxShadow: '2px 2px 10px black' }} >SUMATE</button>
+      </div>
 
 
-        <ImageGallery
-          items={imagenes}
-          showFullscreenButton={false}
-          showPlayButton={false}
-          showThumbnails={false}
-          showNav={false}
-          showBullets={true}
-          autoPlay={true}
-          additionalClass="custom-gallery"
-          onSlide={handleSlideChange}
-          slideDuration={1000}
-          slideInterval={3000}
-        />
-      </section>
+      <ImageGallery
+        items={imagenes}
+        showFullscreenButton={false}
+        showPlayButton={false}
+        showThumbnails={false}
+        showNav={false}
+        showBullets={true}
+        autoPlay={true}
+        additionalClass="custom-gallery"
+        onSlide={handleSlideChange}
+        slideDuration={1000}
+        slideInterval={3000}
+      />
+    </section>
   );
 };
