@@ -18,6 +18,7 @@ export const Navbar = () => {
     };
   }, []);
 
+  
   return (
     <nav className={`fixed top-0 w-full z-50  transition-colors duration-300 bg-black ${scrolled ? 'bg-opacity-75' : ' bg-opacity-60'}`}>
       <div className="container mx-auto flex h-full justify-between items-center">
