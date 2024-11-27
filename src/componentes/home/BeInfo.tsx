@@ -4,11 +4,11 @@ import rose from '../../beConnection_Assets/beInfo/rose.jpg';
 export const BeInfo = () => {
     return (
         <article className="">
-            <section className="grid grid-cols-1 md:grid-cols-2 md:gap-4  md:gap-8">
-                <div className="  flex flex-col justify-center  px-10 pt-10 pb-2 md:p-10">
-                    <h1 className="text-center text-3xl  md:mb-2 lg:text-6xl">SOBRE BE!</h1>
-                    <h2 className="text-center text-lg text-purple1 lg:text-3xl my-4  md:my-6">DE QUÉ SE TRATA BE CONNECTIONS</h2>
-                    <p className="text-sm text-justify text-gray-700 text-lg montserrat">
+            <section className="grid grid-cols-1 md:grid-cols-2 md:gap-4 md:py-6 md:gap-8">
+                <div className="  flex flex-col justify-center px-10 md:px-0 pt-10 md:pt-0 pb-2 md:pb-0 md:px-10  ">
+                    <h1 className="text-center md:text-left  text-3xl   lg:text-6xl">SOBRE BE!</h1>
+                    <h2 className="text-center md:text-left text-lg text-purple1 lg:text-[2rem] my-4  md:my-6">DE QUÉ SE TRATA BE CONNECTIONS</h2>
+                    <p className="text-sm lg:text-lg text-justify md:text-left text-gray-700 text-lg montserrat ">
                         Be Connections es una comunidad de mujeres en Nordelta que buscan generar conexiones, sinergías y amigas, de la manera más linda y divertida posible, disfrutando de desayunos, eventos y acciones junto a marcas que nos miman y nos encantan. Periódicamente realizamos desayunos temáticos: desde beauty & lifestyle a encuentros para emprendedoras y mujeres profesionales todas son oportunidades para conectar, hacer nuevas amigas o ampliar nuestra red de contactos.
                     </p>
                 </div>
