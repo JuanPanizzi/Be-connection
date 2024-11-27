@@ -26,7 +26,7 @@ export const Navbar = () => {
           <img src={logo} alt="Logo" className="h-full max-w-8 sm:max-w-16 mr-2" />
 
         {/* Menú en pantallas grandes */}
-        <div className="hidden md:flex space-x-8 pr-16">
+        <div className="hidden md:flex md:space-x-5 lg:space-x-8 lg:pr-16 ">
           <Link to="#home" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>INICIO</Link>
           <Link to="#about" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>SOBRE BE!</Link>
           <Link to="/recomendaciones" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>RECOMENDADOS BE!</Link>
@@ -59,7 +59,7 @@ export const Navbar = () => {
 
       {/* Menú desplegable para pantallas pequeñas alineado a la derecha */}
       {isOpen && (
-        <div className={`sm:hidden flex flex-col items-end pr-4 mt-2  bg-black ${scrolled ? 'bg-opacity-0' : ' bg-opacity-0'}`}>
+        <div className={`md:hidden flex flex-col items-end pr-4 mt-2  bg-black ${scrolled ? 'bg-opacity-0' : ' bg-opacity-0'}`}>
           <a href="#home" className="block px-4 py-2 text-white hover:bg-purple1" style={{
               textShadow: '2px 2px 2px black'
           }}>INICIO</a>
