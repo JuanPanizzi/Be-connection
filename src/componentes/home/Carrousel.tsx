@@ -35,9 +35,9 @@ export const Carrousel = () => {
   };
   return (
     <section className="relative w-full h-screen flex  justify-center bg-black text-white">
-      <div className=" absolute top-10 min-[380px]:top-20 sm:top-28  z-10 text-center p-4 lg:p-4 lg:py-32 bg">
+      <div className=" absolute top-10 min-[380px]:top-20  min-[500px]:top-28 sm:top-44 md:top-52 z-10 text-center p-4 lg:p-4 ">
         <h1
-          className="text-base min-[500px]:text-xl sm:text-2xl lg:text-[4.2rem] leading-relaxed text-white viaoda "
+          className="text-base min-[500px]:text-xl sm:text-2xl md:text-3xl lg:text-[4.2rem] leading-relaxed text-white viaoda "
           style={{
             textShadow: '2px 2px 4px black',
             lineHeight: 1.3
