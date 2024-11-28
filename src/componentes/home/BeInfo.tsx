@@ -20,15 +20,15 @@ export const BeInfo = () => {
                     />
                 </div>
             </section>
-            <section className=" flex flex-col-reverse items-center sm:flex-row   pb-10 md:grid-cols-3 gap-4 bg-red-200 md:gap-8">
-                <div className="flex justify-center px-10 min-[500px]:h-[400px] items-center   w-full md:p-8 rounded-lg bg-lime-300 h-full bg-green-200 sm:w-[45%] ">
+            <section className=" flex flex-col-reverse items-center sm:flex-row     bg-red-200 ">
+                <div className="flex justify-center px-10 h-full min-[500px]:h-[400px] sm:h-[600px] items-center   w-full md:p-8 rounded-lg bg-lime-300  bg-green-200 sm:w-[45%] ">
                     <img
                         src={rose}
                         alt="beConnections"
-                        className=" md:rounded-t-[100%] object-cover h-full  min-h-[550px]:w-full  sm:max-h-[360px] md:w-[560px] md:h-[390px]"
+                        className=" sm:rounded-t-[100%] object-cover h-full  min-h-[550px]:w-full  sm:max-h-[360px] md:w-[560px] md:h-[390px]"
                     />
                 </div>
-                <div className=" flex flex-col justify-center px-10 bg-lime-200 pt-10 min-[550px]:pt-0 pb-2 min-[550px]:pb-0 sm:w-[55%]">
+                <div className=" flex flex-col justify-center px-10 sm:px-0 sm:pr-10 sm:pl-2 sm:py-5 bg-lime-200 pt-10 min-[550px]:pt-0 pb-2 min-[550px]:pb-0 sm:w-[55%]">
                     <h1 className="text-center sm:text-right  text-3xl lg:text-6xl">SOBRE ROSE</h1>
                     <h2 className="text-center sm:text-right text-lg text-purple1 lg:text-[2rem] my-4  md:my-6">¿QUIÉN ESTÁ DETRÁS DE BE CONNECTIONS?</h2>
                     <p className="text-sm md:text-lg text-justify sm:text-right text-gray-700  montserrat">
