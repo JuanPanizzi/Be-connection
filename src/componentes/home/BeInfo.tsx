@@ -12,7 +12,7 @@ export const BeInfo = () => {
                         Be Connections es una comunidad de mujeres en Nordelta que buscan generar conexiones, sinergías y amigas, de la manera más linda y divertida posible, disfrutando de desayunos, eventos y acciones junto a marcas que nos miman y nos encantan. Periódicamente realizamos desayunos temáticos: desde beauty & lifestyle a encuentros para emprendedoras y mujeres profesionales todas son oportunidades para conectar, hacer nuevas amigas o ampliar nuestra red de contactos.
                     </p>
                 </div>
-                <div className="flex justify-center  items-center p-4 sm:p-8 rounded-lg">
+                <div className="flex justify-center  items-center p-4 sm:p-8 rounded-lg ">
                     <img
                         src={beInfo1}
                         alt="beConnections"
@@ -20,15 +20,15 @@ export const BeInfo = () => {
                     />
                 </div>
             </section>
-            <section className=" flex flex-col-reverse items-center sm:flex-row     bg-red-200 ">
-                <div className="flex justify-center px-10 sm:px-2  h-full min-[500px]:h-[400px] sm:h-[600px] items-center   w-full  rounded-lg bg-lime-300  bg-green-200 sm:w-[45%] ">
+            <section className=" flex flex-col-reverse items-center sm:flex-row  pt-5 sm:pt-0  ">
+                <div className="flex justify-center px-10 sm:px-2  h-full min-[500px]:h-[400px] sm:h-[600px] items-center   w-full  rounded-lg sm:w-[45%] mt-5 mb-16 sm:mt-0 sm:mb-0 ">
                     <img
                         src={rose}
                         alt="beConnections"
-                        className=" sm:rounded-t-[100%] object-cover h-full  min-h-[550px]:w-full  sm:max-h-[390px] md:max-h-[470px] lg:max-h-[490px]"
+                        className=" sm:rounded-t-[100%] object-cover h-full  min-h-[550px]:w-full  sm:max-h-[390px] md:max-h-[450px]  "
                     />
                 </div>
-                <div className=" flex flex-col justify-center px-10 sm:px-0 sm:pr-10 sm:pl-5 sm:py-5 bg-lime-200 pt-10 min-[550px]:pt-0 pb-2 min-[550px]:pb-0 sm:w-[55%]">
+                <div className=" flex flex-col justify-center px-10 sm:px-0 sm:pr-10 sm:pl-5 sm:py-5  pt-10 min-[550px]:pt-0 pb-2 min-[550px]:pb-0 sm:w-[55%]">
                     <h1 className="text-center sm:text-right  text-3xl lg:text-6xl">SOBRE ROSE</h1>
                     <h2 className="text-center sm:text-right text-lg text-purple1 lg:text-[2rem] my-4  md:my-6">¿QUIÉN ESTÁ DETRÁS DE BE CONNECTIONS?</h2>
                     <p className="text-sm md:text-lg text-justify sm:text-right text-gray-700  montserrat">
