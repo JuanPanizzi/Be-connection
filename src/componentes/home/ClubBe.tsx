@@ -18,7 +18,7 @@ export const ClubBe = () => {
           {/* Título y descripción */}
           <div>
             <h1 className="text-3xl lg:text-4xl lg:text-6xl  mb-4">CLUB BE!</h1>
-            <h2 className="text-lg lg:text-xl lg:text-3xl text-purple1 mb-6">
+            <h2 className="text-lg  lg:text-3xl text-purple1 mb-6">
               PODÉS ESTAR AL TANTO DE LAS NOVEDADES
             </h2>
             <p className="text-gray-700 text-base lg:text-lg leading-relaxed montserrat lg:pl-16">
@@ -30,7 +30,7 @@ export const ClubBe = () => {
           
           {/* Perfil y detalles */}
           <div className="mt-8">
-            <h2 className="text-lg lg:text-xl lg:text-3xl text-purple1 mb-6">
+            <h2 className="text-lg  lg:text-3xl text-purple1 mb-6">
               ¿CUÁL ES EL PERFIL DE LAS MUJERES BE?
             </h2>
             <p className="text-gray-700 text-base lg:text-lg leading-relaxed montserrat lg:pl-16">
