@@ -42,7 +42,7 @@ export const ClubBe = () => {
           <div className="mt-10 flex justify-center lg:justify-end">
             <Button
               text="MÁS INFO"
-              className="min-w-[250px] lg:min-w-[300px] py-3 lg:py-4 text-lg lg:text-xl lg:text-2xl bg-purple1 text-white rounded-lg shadow-lg"
+              className="min-w-[200px]  lg:min-w-[300px] py-2 lg:py-4 text-base lg:text-xl lg:text-2xl bg-purple1 text-white rounded-lg shadow-lg"
             />
           </div>
         </div>
