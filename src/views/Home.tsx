@@ -3,7 +3,7 @@ import { BeInfo } from "../componentes/home/BeInfo"
 import { Carrousel } from "../componentes/home/Carrousel"
 import { ClubBe } from "../componentes/home/ClubBe"
 import { ConocerMás } from "../componentes/home/ConocerMás"
-import { Marcas } from "../componentes/Marcas"
+// import { Marcas } from "../componentes/Marcas"
 
 export const Home = () => {
   return (
@@ -13,7 +13,7 @@ export const Home = () => {
       <ConocerMás/>
       <Barra text1="¿QURÉS SER PARTE DE UNO DE NUESTROS" text2="DESAYUNOS?" />
       <ClubBe/>
-      <Marcas/>
+      {/* <Marcas/> */}
       <Barra text1="RECIBÍ INVITACIONES Y NOVEDADES EN TU" text2="WHATSAPP"/>
     </>
   )

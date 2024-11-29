@@ -10,7 +10,7 @@ export const Barra = ({text1, text2, text3}:any) => {
         {
           text3 && <p className="text-white w-2/3 text-xl py-2">{text3}</p>
         }
-        <button className="border-4 rounded border-white md:py-4 md:px-10 w-[100px]  md:w-[300px] md:text-2xl text-white">SUMATE</button>
+        <button className="border-4 rounded border-white md:py-4 md:px-10 w-[100px]  md:w-[290px] md:text-2xl text-white">SUMATE</button>
         </div>   
         </div>
     </>
