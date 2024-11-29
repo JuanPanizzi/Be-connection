@@ -20,12 +20,12 @@ export const RecomendacionesInfo = () => {
       ];
       return (
         <section className='py-6 px-4 md:px-20'>
-          <h1 className='text-3xl md:text-6xl'>RECOMENDACIONES BE!</h1>
-          <h2 className='text-2xl md:text-4xl md:py-6 text-purple1'>BASADOS EN NUESTRAS EXPERIENCIAS</h2>
-          <p className='text-lg md:text-xl'>
+          <h1 className='text-2xl text-center md:text-3xl lg:text-6xl md:text-left'>RECOMENDACIONES BE!</h1>
+          <h2 className='text-center sm:text-2xl  lg:text-4xl md:py-3 lg:py-6 text-purple1 md:text-left'>BASADOS EN NUESTRAS EXPERIENCIAS</h2>
+          <p className=' text-xs text-sm md:text-xl text-center md:text-left'>
             *Todos ellos formaron parte acompañando o participando en acciones o eventos junto a Be.
-            <br /> Vale la pena conocerlos!
           </p>
+          <p className='text-xs text-sm md:text-xl text-center md:text-left'>Vale la pena conocerlos!</p>
           <div className='grid grid-cols-2 md:grid-cols-4 gap-4 py-6 '>
             {recomendaciones.map((recomendacion) => (
               <div
@@ -34,7 +34,7 @@ export const RecomendacionesInfo = () => {
                 style={{ backgroundImage: `url(${recomendacion.imagen})` }}
               >
                 <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 hover:bg-purple1 hover:bg-opacity-100 transition-all duration-300 ">
-                  <h3 className="text-white md:text-4xl md:w-1/2 text-center ">{recomendacion.titulo}</h3>
+                  <h3 className="text-white md:text-xl lg:text-4xl md:w-1/2 text-center ">{recomendacion.titulo}</h3>
                 </div>
               </div>
             ))}

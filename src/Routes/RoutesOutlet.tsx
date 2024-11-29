@@ -22,8 +22,6 @@ export const RoutesOutlet = () => {
                 <Route path="contacto" element={<Contacto/>}/>
 
 
-                
-
             </Route>
 
 
