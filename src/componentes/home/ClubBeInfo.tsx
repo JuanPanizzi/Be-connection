@@ -1,6 +1,7 @@
 import club from '../../beConnection_Assets/club-be-imagenes/1-clube-be.png'
 import { Button } from '../shared/Button'
-export const ClubBe = () => {
+
+export const ClubBeInfo = () => {
   return (
     <article className="p-4  lg:p-12">
       <section className="  grid grid-cols-1 lg:grid-cols-3 lg:gap-6  lg:gap-8">
