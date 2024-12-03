@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import logo from '../beConnection_Assets/logo-be-connection.png';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,8 +28,8 @@ export const Navbar = () => {
 
         {/* Menú en pantallas grandes */}
         <div className="hidden md:flex md:space-x-5 lg:space-x-8 lg:pr-16 ">
-          <Link to="#home" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>INICIO</Link>
-          <Link to="#sobreBe" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>SOBRE BE!</Link>
+          <Link to="/" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>INICIO</Link>
+          <HashLink smooth to="/#be-info" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>SOBRE BE!</HashLink>
           <Link to="/recomendaciones" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>RECOMENDADOS BE!</Link>
           <Link to="/newsletter" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>NEWSLETTER</Link>
           <Link to="/club" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>CLUB BE!</Link>

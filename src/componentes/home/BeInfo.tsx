@@ -3,7 +3,7 @@ import rose from '../../beConnection_Assets/beInfo/rose.jpg';
 
 export const BeInfo = () => {
     return (
-        <article className="">
+        <article className="" id='be-info'>
             <section className="grid grid-cols-1 sm:grid-cols-2 sm:gap-4 sm:py-6 sm:gap-8">
                 <div className="  flex flex-col justify-center px-10 sm:px-0 pt-10 sm:pt-0 pb-2 sm:pb-0 sm:px-10  ">
                     <h1 className="text-center sm:text-left  text-3xl   lg:text-6xl">SOBRE BE!</h1>
