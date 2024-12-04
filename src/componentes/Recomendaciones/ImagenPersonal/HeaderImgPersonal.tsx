@@ -8,7 +8,7 @@ export const HeaderImgPersonal = () => {
                 <p className="text-xs  sm:text-sm md:text-lg text-justify sm:text-left text-gray-700  montserrat ">
                     Te invito a recorrer el camino de encontrar la imagen profesional que hable de vos y bookear una sesión de fotos para lograr fotos que te representen, fotos que reflejen tu energía y pasión emprendedora. Te invito a trabajar en tu imagen, pero no solo para el día del shooting, sino para que te sirva siempre. Que en cada envento, encuentro u oportunidad de networking al que asistas, te plantes frente a la cámara con seguridad
                 </p>
-                <p className='text-xs md:text-base text-justify sm:text-left text-purple1 mt-3  montserrat '>*Tené en cuenta que desde Be Connections solo te los presento y recomiendo. Los honorarios con cada uno de ellos, deberás consultarlos y acordarlos con ellos. Podés contactarlos sin compromiso!</p>
+                <p className='text-xs md:text-base text-justify sm:text-left text-purple1 mt-3 font-semibold montserrat '>*Tené en cuenta que desde Be Connections solo te los presento y recomiendo. Los honorarios con cada uno de ellos, deberás consultarlos y acordarlos con ellos. Podés contactarlos sin compromiso!</p>
             </div>
         </section>
     )
