@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import beauty from '../../beConnection_Assets/Recomendaciones-imagenes/1.beauty.png'
 import wellness from '../../beConnection_Assets/Recomendaciones-imagenes/2.welness.png'
 import moda from '../../beConnection_Assets/Recomendaciones-imagenes/3. moda y accesorios.png'
@@ -9,14 +10,14 @@ import fiestas from '../../beConnection_Assets/Recomendaciones-imagenes/7.fiesta
 
 export const RecomendacionesInfo = () => {
     const recomendaciones = [
-        { id: 1, titulo: "Beauty and Make Up", imagen: beauty },
-        { id: 2, titulo: "Wellness", imagen: wellness },
-        { id: 3, titulo: "Moda y Accesorios", imagen: moda },
-        { id: 4, titulo: "Imagenes Personal", imagen: personal },
-        { id: 5, titulo: "Deco y Hogar", imagen: deco} ,
-        { id: 6, titulo: "Todo para tu negocio", imagen: negocio },
-        { id: 7, titulo: "Fiestas y Celebraciones", imagen: fiestas },
-        { id: 8, titulo: "Holística", imagen: wellness }
+        { id: 1, titulo: "Beauty and Make Up", imagen: beauty, link: '' },
+        { id: 2, titulo: "Wellness", imagen: wellness , link: ''},
+        { id: 3, titulo: "Moda y Accesorios", imagen: moda , link: ''},
+        { id: 4, titulo: "Imagenes Personal", imagen: personal , link: '/personal'},
+        { id: 5, titulo: "Deco y Hogar", imagen: deco, link: ''} ,
+        { id: 6, titulo: "Todo para tu negocio", imagen: negocio , link: ''},
+        { id: 7, titulo: "Fiestas y Celebraciones", imagen: fiestas , link: ''},
+        { id: 8, titulo: "Holística", imagen: wellness , link: ''}
       ];
       return (
         <section className='py-6 px-4 md:px-20'>
@@ -28,15 +29,18 @@ export const RecomendacionesInfo = () => {
           <p className='text-xs text-sm md:text-xl text-center md:text-left'>Vale la pena conocerlos!</p>
           <div className='grid grid-cols-2 md:grid-cols-4 gap-4 py-6 '>
             {recomendaciones.map((recomendacion) => (
+              <Link to={recomendacion.link} className='hover:cursor-pointer' target='_blank'>
+
               <div
                 key={recomendacion.id}
                 className="relative h-40 md:h-56 bg-cover bg-center hover:bg-purple1  shadow-lg "
                 style={{ backgroundImage: `url(${recomendacion.imagen})` }}
-              >
+                >
                 <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 hover:bg-purple1 hover:bg-opacity-100 transition-all duration-300 ">
                   <h3 className="text-white md:text-xl lg:text-4xl md:w-1/2 text-center ">{recomendacion.titulo}</h3>
                 </div>
               </div>
+                </Link>
             ))}
           </div>
         </section>

@@ -6,6 +6,7 @@ import { Recomendaciones } from "../views/Recomendaciones"
 import { Newsletter } from "../views/Newsletter"
 import { ClubBe } from "../views/ClubBe"
 import { Contacto } from "../views/Contacto"
+import { ImagenPersonal } from "../views/Recomendaciones/ImagenPersonal"
 
 export const RoutesOutlet = () => {
   return (
@@ -20,6 +21,8 @@ export const RoutesOutlet = () => {
                 <Route path="newsletter" element={<Newsletter/>}/>
                 <Route path="club" element={<ClubBe/>}/>
                 <Route path="contacto" element={<Contacto/>}/>
+                <Route path="personal" element={<ImagenPersonal/>}/>
+
 
 
             </Route>
