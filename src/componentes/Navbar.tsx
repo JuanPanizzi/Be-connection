@@ -19,12 +19,12 @@ export const Navbar = () => {
     };
   }, []);
 
-  
+
   return (
     <nav className={`fixed top-0 w-full z-50 xl:max-w-[1500px]  transition-colors duration-300 bg-black ${scrolled ? 'bg-opacity-50' : ' bg-opacity-25'}`}>
       <div className="container mx-auto flex h-full justify-between items-center ">
         {/* Logo */}
-          <img src={logo} alt="Logo" className="h-full max-w-8 sm:max-w-16 mr-2" />
+        <img src={logo} alt="Logo" className="h-full max-w-8 sm:max-w-16 mr-2" />
 
         {/* Menú en pantallas grandes */}
         <div className="hidden md:flex md:space-x-5 lg:space-x-8 lg:pr-16 ">
@@ -61,18 +61,12 @@ export const Navbar = () => {
       {/* Menú desplegable para pantallas pequeñas alineado a la derecha */}
       {isOpen && (
         <div className={`md:hidden flex flex-col items-end pr-4 mt-2  bg-black ${scrolled ? 'bg-opacity-0' : ' bg-opacity-0'}`}>
-          <a href="#home" className="block px-4 py-2 text-white hover:bg-purple1" style={{
-              textShadow: '2px 2px 2px black'
-          }}>INICIO</a>
-          <a href="#sobreBe" className="block px-4 py-2 text-white hover:bg-purple1" style={{
-              textShadow: '2px 2px 2px black'
-          }} >NOSOTROS</a>
-          <a href="#services" className="block px-4 py-2 text-white hover:bg-purple1"  style={{
-              textShadow: '2px 2px 2px black'
-          }}>SERVICIOS</a>
-          <a href="#contact" className="block px-4 py-2 text-white hover:bg-purple1"  style={{
-              textShadow: '2px 2px 2px black'
-          }}>CONTACTO</a>
+          <Link to="/" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>INICIO</Link>
+          <HashLink smooth to="/#be-info" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>SOBRE BE!</HashLink>
+          <Link to="/recomendaciones" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>RECOMENDADOS BE!</Link>
+          <Link to="/newsletter" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>NEWSLETTER</Link>
+          <Link to="/club" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>CLUB BE!</Link>
+          <Link to="/contacto" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>CONTACTO</Link>
         </div>
       )}
     </nav>
