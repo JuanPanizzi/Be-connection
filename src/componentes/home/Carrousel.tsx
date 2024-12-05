@@ -7,6 +7,7 @@ import { useState } from 'react';
 
 import 'react-image-gallery/styles/css/image-gallery.css';
 import './Carrousel.css';
+import { HashLink } from 'react-router-hash-link';
 
 export const Carrousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -46,8 +47,15 @@ export const Carrousel = () => {
           {imagenes[currentIndex].title}
         </h1>
 
-        <button className=' lg:max-w-[300px] text-white rounded border-[1.5px] lg:border-[3px] border-white w-20 sm:w-28 p-1 mt-3 lg:p-3 lg:w-72 text-[0.7rem] min-[500px]:text-[0.7rem] sm:text-[0.8rem] lg:text-xl lg:mt-12   '
-          style={{ boxShadow: '2px 2px 10px black' }} >SUMATE</button>
+        {/* <button className=' lg:max-w-[300px] text-white rounded border-[1.5px] lg:border-[3px] border-white w-20 sm:w-28 p-1 mt-3 lg:p-3 lg:w-72 text-[0.7rem] min-[500px]:text-[0.7rem] sm:text-[0.8rem] lg:text-xl lg:mt-12   '
+          style={{ boxShadow: '2px 2px 10px black' }} > */}
+            {/* <a href="#footer">
+            SUMATE
+            </a> */}
+            {/* </button> */}
+          <HashLink smooth to="/#footer" className='carrousel-button inline-block lg:max-w-[300px] text-white rounded border-[1.5px] lg:border-[3px] border-white w-20 sm:w-28 p-1 mt-3 lg:p-3 lg:w-72 text-[0.7rem] min-[500px]:text-[0.7rem] sm:text-[0.8rem] lg:text-xl lg:mt-12   '
+          style={{ boxShadow: '2px 2px 10px black' }} >SOBRE BE!</HashLink>
+
       </div>
 
 

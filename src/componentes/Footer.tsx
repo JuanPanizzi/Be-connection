@@ -5,7 +5,7 @@ import phone from '../beConnection_Assets/icons_footer/phone.png'
 export const Footer = () => {
 
   return (
-    <footer className='relative flex flex-col   justify-center items-center'>
+    <footer id='footer' className='relative flex flex-col   justify-center items-center'>
       <div className=" mt-5  lg:mt-0 lg:absolute   lg:w-1/3 lg:flex lg:left-20 lg:bottom-6">
         <img src={logo} alt="beconnection" className='h-[130px] lg:h-[180px]' />
       </div>

@@ -10,6 +10,12 @@
     height: 100%;
     object-fit: cover; /* Asegura que la imagen cubra todo el contenedor manteniendo la proporción */
   }
+
+  .carrousel-button:hover{
+    backdrop-filter: blur(10px);
+    transition: all ease-out 0.3s;
+    font-size: 1.2rem;
+  }
   
   
   .image-gallery-content .image-gallery-slide .image-gallery-image {
