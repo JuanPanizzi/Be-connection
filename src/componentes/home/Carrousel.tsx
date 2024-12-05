@@ -36,9 +36,9 @@ export const Carrousel = () => {
   };
   return (
     <section className="relative w-full flex   justify-center bg-black text-white">
-      <div className=" absolute top-10 min-[380px]:top-20  min-[500px]:top-28 sm:top-44 md:top-52 z-10 text-center p-4 lg:p-4 ">
+      <div className=" absolute top-7 min-[330px]:top-9  min-[380px]:top-12  min-[500px]:top-28 sm:top-44 md:top-52 z-10 text-center p-4 lg:p-4 ">
         <h1
-          className="text-2xl min-[500px]:text-xl sm:text-2xl md:text-3xl lg:text-[4.2rem] leading-relaxed text-white viaoda "
+          className="text-base min-[330px]:text-lg  min-[380px]:text-2xl min-[500px]:text-xl sm:text-2xl md:text-3xl lg:text-[4.2rem] leading-relaxed text-white viaoda "
           style={{
             textShadow: '2px 2px 4px black',
             lineHeight: 1.3
@@ -53,7 +53,7 @@ export const Carrousel = () => {
             SUMATE
             </a> */}
             {/* </button> */}
-          <HashLink smooth to="/#footer" className='carrousel-button inline-block lg:max-w-[300px] text-white rounded border-[1.5px] lg:border-[3px] border-white w-20 sm:w-28 p-1 mt-3 lg:p-3 lg:w-72 text-[0.7rem] min-[500px]:text-[0.7rem] sm:text-[0.8rem] lg:text-xl lg:mt-12   '
+          <HashLink smooth to="/#footer" className='carrousel-button inline-block lg:max-w-[300px] text-white rounded border-[1.5px] lg:border-[3px] border-white w-20 sm:w-28 p-1 mt-3 lg:p-3 lg:w-72  text-[0.5rem] min-[330px]:text-[0.7rem]  min-[500px]:text-[0.7rem] sm:text-[0.8rem] lg:text-xl lg:mt-12   '
           style={{ boxShadow: '2px 2px 10px black' }} >SOBRE BE!</HashLink>
 
       </div>
