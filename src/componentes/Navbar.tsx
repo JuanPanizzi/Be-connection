@@ -61,12 +61,12 @@ export const Navbar = () => {
       {/* Menú desplegable para pantallas pequeñas alineado a la derecha */}
       {isOpen && (
         <div className={`md:hidden flex flex-col items-end pr-4 mt-2  bg-black ${scrolled ? 'bg-opacity-0' : ' bg-opacity-0'}`}>
-          <Link to="/" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>INICIO</Link>
-          <HashLink smooth to="/#be-info" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>SOBRE BE!</HashLink>
-          <Link to="/recomendaciones" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>RECOMENDADOS BE!</Link>
-          <Link to="/newsletter" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>NEWSLETTER</Link>
-          <Link to="/club" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>CLUB BE!</Link>
-          <Link to="/contacto" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}>CONTACTO</Link>
+          <Link to="/" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}  onClick={() => setIsOpen(!isOpen)}>INICIO</Link>
+          <HashLink smooth to="/#be-info" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}  onClick={() => setIsOpen(!isOpen)}>SOBRE BE!</HashLink>
+          <Link to="/recomendaciones" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}  onClick={() => setIsOpen(!isOpen)}>RECOMENDADOS BE!</Link>
+          <Link to="/newsletter" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}  onClick={() => setIsOpen(!isOpen)}>NEWSLETTER</Link>
+          <Link to="/club" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}  onClick={() => setIsOpen(!isOpen)}>CLUB BE!</Link>
+          <Link to="/contacto" className={`lg:text-lg hover:text-purple1 transition-colors ${scrolled ? 'text-white' : 'text-white'}`}  onClick={() => setIsOpen(!isOpen)}>CONTACTO</Link>
         </div>
       )}
     </nav>
