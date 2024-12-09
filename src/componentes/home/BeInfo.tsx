@@ -4,7 +4,7 @@ import rose from '../../beConnection_Assets/beInfo/rose.jpg';
 export const BeInfo = () => {
     return (
         <article className="xl:max-w-[2000px] mx-auto xl:px-20"  id='be-info'>
-            <section className="flex flex-col-reverse items-center sm:flex-row  mt-10 bg-red-200 sm:px-2 lg:px-5 ">
+            <section className="flex flex-col-reverse items-center sm:flex-row  mt-10 bg-red-200 sm:px-2 lg:px-5 xl:px-0 ">
                 <div className="mx-auto flex flex-col justify-center sm:justify-start px-10 sm:px-0 pt-10 sm:pt-0 pb-2 sm:pb-0 sm:pr-2 xl:px-0 bg-orange-200 sm:w-full ">
                     <h1 className="text-center sm:text-left  text-3xl   lg:text-6xl xl:text-7xl 2xl:text-7xl">SOBRE BE!</h1> 
                     <h2 className="text-center sm:text-left text-lg text-purple1 lg:text-[2rem] xl:text-[2.5rem] 2xl:text-[2.6rem] xl:leading-tight my-4  sm:my-6 ">DE QUÉ SE TRATA BE CONNECTIONS</h2>
@@ -20,8 +20,8 @@ export const BeInfo = () => {
                     />
                 </div>
             </section>
-            <section className=" flex flex-col-reverse items-center sm:flex-row  pt-5 sm:pt-0 xl:mt-32 bg-sky-200 sm:px-2 lg:px-5 ">
-                <div className="flex justify-center px-10 sm:px-2  h-full min-[500px]:h-[400px] sm:h-[600px] items-center   w-full   sm:w-[45%] mt-5 mb-16 sm:mt-0 sm:mb-0  lg:justify-start bg-lime-200">
+            <section className=" flex flex-col-reverse items-center sm:flex-row  pt-5 sm:pt-0 xl:mt-32 bg-sky-200 sm:px-2 lg:px-5 xl:px-0 ">
+                <div className="flex justify-center px-10 sm:px-2 xl:px-0  h-full min-[500px]:h-[400px] sm:h-[600px] items-center   w-full   sm:w-[45%] mt-5 mb-16 sm:mt-0 sm:mb-0  lg:justify-start bg-lime-200">
                     <img
                         src={rose}
                         alt="beConnections"
@@ -30,11 +30,11 @@ export const BeInfo = () => {
                 </div>
                 <div className=" flex flex-col justify-center px-10 sm:px-0  sm:pl-5 lg:pl-0 lg:pr-0 sm:py-5  pt-10 min-[550px]:pt-0 pb-2 min-[550px]:pb-0 sm:w-[55%] bg-emerald-400 ">
                     <h1 className="text-center sm:text-right  text-3xl lg:text-6xl   xl:text-7xl 2xl:text-7xl">SOBRE ROSE</h1>
-                    <h2 className="text-center sm:text-right text-lg text-purple1 lg:text-[2rem] xl:text-[2.5rem] 2xl:text-[2.6rem] xl:leading-tight     my-4  md:my-6">¿QUIÉN ESTÁ DETRÁS DE BE CONNECTIONS?</h2>
-                    <p className="text-sm  lg:text-lg xl:text-xl 2xl:text-2xl text-justify sm:text-right text-gray-700  montserrat">
+                    <h2 className="text-center sm:text-right text-lg text-purple1 lg:text-[2rem] xl:text-[2.5rem] 2xl:text-[2.6rem] xl:leading-tight my-4  md:my-6">¿QUIÉN ESTÁ DETRÁS DE BE CONNECTIONS?</h2>
+                    <p className="text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl text-justify sm:text-right text-gray-700  montserrat">
                     Soy Rose Alamo, Contadora y Lic. en Aministración con formación en Marketing y Publicidad.  Fui expatriada por 14 años donde gané experiencia y me enriquecí organizando encuentros para mujeres en diferentes ciudades, principalmente en Abu Dhabi, Emiratos Árabes. Al regresar a mi país, hace seis años, quise replicar lo mejor de lo vivido en cada ciudad (San Pablo, Abu Dhabi, Londres), creando experiencias únicas, para mujeres que aman verse bellas, valoran un estilo de vida saludable y sobre todo, desean conectar con otras mujeres, enriqueciéndose en cada encuentro unas de otras.
                     </p>
-                    <p className='text-sm  lg:text-lg xl:text-xl 2xl:text-2xl text-justify sm:text-right font-semibold text-purple1  montserrat mt-2 lg:mt-5'>Conocer las vivencias de cada una es muy enriquecedor!</p>
+                    <p className='text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl text-justify sm:text-right font-semibold text-purple1  montserrat mt-2 lg:mt-5'>Conocer las vivencias de cada una es muy enriquecedor!</p>
                 </div>
             </section>
         </article>
