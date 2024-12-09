@@ -69,8 +69,8 @@ export const Carrousel = () => {
         autoPlay={true}
         additionalClass="custom-gallery"
         onSlide={handleSlideChange}
-        slideDuration={1000}
-        slideInterval={3000}
+        slideDuration={1500}
+        slideInterval={7000}
       />
     </section>
   );
