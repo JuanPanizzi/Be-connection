@@ -10,7 +10,7 @@ export const ClubBeInfo = () => {
           <img
             src={club}
             alt="beConnections"
-            className="w-full max-w-xs lg:max-w-sm lg:max-w-lg h-auto object-contain rounded-t-[40%]"
+            className="w-full max-w-xs lg:max-w-sm lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl h-auto object-contain rounded-t-[40%]"
           />
         </div>
         
@@ -18,11 +18,11 @@ export const ClubBeInfo = () => {
         <div className="flex flex-col justify-center text-center lg:text-right py-8 lg:py-16 col-span-2">
           {/* Título y descripción */}
           <div>
-            <h1 className="text-3xl lg:text-4xl lg:text-6xl  mb-4">CLUB BE!</h1>
+            <h1 className="text-3xl lg:text-4xl lg:text-6xl   mb-4">CLUB BE!</h1>
             <h2 className="text-lg  lg:text-3xl text-purple1 mb-6">
               PODÉS ESTAR AL TANTO DE LAS NOVEDADES
             </h2>
-            <p className="text-gray-700 text-base lg:text-lg leading-relaxed montserrat lg:pl-16">
+            <p className="text-gray-700 text-base lg:text-lg xl:text-xl  leading-relaxed montserrat lg:pl-16">
               Si bien podés participar en cualquiera de nuestros encuentros y actividades, te invitamos a ser parte de{" "}
               <b className="text-purple1 font-bold">Club Be!</b>: sumate para estar al tanto de las novedades y tener prioridad para inscribirte a cada encuentro, workshop o experiencia. <br />
               Además como socia, vas a recibir promociones, obsequios y descuentos exclusivos para nuestra comunidad. También invitaciones a eventos y acciones solo para socias.
@@ -34,7 +34,7 @@ export const ClubBeInfo = () => {
             <h2 className="text-lg  lg:text-3xl text-purple1 mb-6">
               ¿CUÁL ES EL PERFIL DE LAS MUJERES BE?
             </h2>
-            <p className="text-gray-700 text-base lg:text-lg leading-relaxed montserrat lg:pl-16">
+            <p className="text-gray-700 text-base lg:text-lg xl:text-xl  leading-relaxed montserrat lg:pl-16">
               Principalmente vecinas de Nordelta y Barrios de Nuevo Delta (ABC1). También se suman de otras ciudades, quienes tienen lazos personales/comerciales con nuestra zona (principalmente de Recoleta, San Isidro y barrios centrados de diversos puntos de Buenos Aires). Todos tenemos en común el ser mujeres con un estilo de vida que cuida y valora los detalles y aman sentirse bellas y empoderadas.
             </p>
           </div>
