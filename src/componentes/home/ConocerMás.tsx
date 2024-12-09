@@ -18,11 +18,11 @@ export const ConocerMás = () => {
 
   return (
     <>
-      <section className="xl:max-w-[2000px] mx-auto lg:px-5 xl:px-20 xl:mx-auto py-20 lg:py-32 ">
+      <section className="xl:max-w-[2000px] mx-auto lg:px-5  xl:px-20 xl:mx-auto py-20 lg:py-32 ">
         <div className="text-center pb-10 ">
           <h2 className="text-2xl lg:text-6xl font-thin sm:text-4xl xl:text-7xl 2xl:text-7xl">CONOCÉ MÁS SOBRE BE!</h2>
         </div>
-        <div className="grid md:grid-cols-3 md:flex-row  gap-4 px-6 sm:px-0 xl:px-0 xl:justify-between ">
+        <div className="grid md:grid-cols-3 md:flex-row  gap-4 xl:gap-10 2xl:gap-14   px-6 sm:px-0 xl:px-0 xl:justify-between xl:mt-10">
           {
             infoCards.map(({imagen, titulo, span, p1, p2}, index )=> (
               <CardConocerMas key={index} titulo={titulo} p1={p1} p2={p2} imagen={imagen} span={span} />
