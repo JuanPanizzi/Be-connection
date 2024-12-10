@@ -24,7 +24,7 @@ export const ConocerMás = () => {
         </div>
         <div className="grid md:grid-cols-3 md:flex-row  gap-4 xl:gap-10 2xl:gap-14   px-6 sm:px-0 xl:px-0 xl:justify-between xl:mt-10">
           {
-            infoCards.map(({imagen, titulo, span, p1, p2}, index )=> (
+            infoCards.map(({imagen, titulo, p1, p2}, index )=> (
               <CardConocerMas key={index} titulo={titulo} p1={p1} p2={p2} imagen={imagen} />
             ))
           }
