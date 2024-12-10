@@ -42,7 +42,7 @@ export const Carrousel = () => {
   };
   return (
     <section className="relative w-full flex   justify-center bg-black text-white">
-      <div className=" absolute top-9 min-[330px]:top-14  min-[380px]:top-12  min-[500px]:top-28 sm:top-44 md:top-52 lg:top-36 xl:top-72 2xl:top-[20rem]  z-10 text-center p-4 lg:p-4 ">
+      <div className=" absolute top-9 min-[330px]:top-14  min-[380px]:top-12  min-[500px]:top-28 sm:top-44 md:top-52 lg:top-36 xl:top-[72] 2xl:top-[15rem]  z-10 text-center p-4 lg:p-4 ">
         <h1
           className="text-base min-[330px]:text-lg  min-[380px]:text-2xl min-[500px]:text-xl sm:text-2xl md:text-3xl lg:text-[4.2rem] leading-relaxed text-white viaoda "
           style={{
