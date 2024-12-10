@@ -23,12 +23,12 @@ export const RecomendacionesInfo = () => {
       ];
       return (
         <section className='py-6 px-4 md:px-20'>
-          <h1 className='text-2xl text-center md:text-3xl lg:text-6xl md:text-left'>RECOMENDACIONES BE!</h1>
-          <h2 className='text-center sm:text-2xl  lg:text-4xl md:py-3 lg:py-6 text-purple1 md:text-left'>BASADOS EN NUESTRAS EXPERIENCIAS</h2>
-          <p className=' text-xs text-sm md:text-xl text-center md:text-left'>
+          <h1 className='text-2xl text-center md:text-3xl lg:text-6xl xl:text-7xl md:text-left'>RECOMENDACIONES BE!</h1>
+          <h2 className='text-center sm:text-2xl  lg:text-4xl xl:text-5xl md:py-3 lg:py-6 text-purple1 md:text-left'>BASADOS EN NUESTRAS EXPERIENCIAS</h2>
+          <p className=' text-xs text-sm md:text-xl xl:text-2xl text-center md:text-left'>
             *Todos ellos formaron parte acompañando o participando en acciones o eventos junto a Be.
           </p>
-          <p className='text-xs text-sm md:text-xl text-center md:text-left'>Vale la pena conocerlos!</p>
+          <p className='text-xs text-sm md:text-xl xl:text-2xl text-center md:text-left'>Vale la pena conocerlos!</p>
           <div className='grid grid-cols-2 md:grid-cols-4 gap-4 py-6 '>
             {recomendaciones.map((recomendacion) => (
               <Link to={ recomendacion.link ? recomendacion.link : '' } className={`${recomendacion.titulo !== 'Imagen Personal' ? 'hover:cursor-default': 'hover:cursor-pointer'}`} >
