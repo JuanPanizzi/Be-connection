@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react';
 import logo from '../beConnection_Assets/logo-be-connection.png';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  const location = useLocation(); // Obtiene la ubicación actual (URL)
+  const navOpacity = location.pathname === '/' ? 'bg-opacity-80' : scrolled ? 'bg-opacity-80' : 'bg-opacity-50';
   // Cambia el estado `scrolled` cuando se hace scroll
   useEffect(() => {
     const handleScroll = () => {
@@ -21,7 +23,7 @@ export const Navbar = () => {
 
 
   return (
-    <nav className={`fixed top-0 w-full z-50   transition-colors duration-300 bg-black ${scrolled ? 'bg-opacity-80' : ' bg-opacity-50'}`}>
+    <nav className={`fixed top-0 w-full z-50   transition-colors duration-300 bg-black ${navOpacity}`}>
       <div className="container mx-auto flex h-full justify-between items-center ">
         {/* Logo */}
         <img src={logo} alt="Logo" className="h-full max-w-8 sm:max-w-16 mr-2" />
