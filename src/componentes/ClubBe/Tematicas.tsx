@@ -1,8 +1,8 @@
 import tematicas from '../../beConnection_Assets/club-be-imagenes/2-club-be.png'
 export const Tematicas = () => {
     return (
-        <section className="flex flex-col-reverse lg:flex-row   mt-10">
-            <div className="lg:w-[60%]  lg:px-20 flex flex-col justify-end px-6 lg:px-0 ">
+        <section className=" xl:max-w-[2000px] mx-auto lg:px-12 xl:px-20 flex flex-col-reverse lg:flex-row   mt-10 ">
+            <div className="lg:w-[60%]   flex flex-col justify-end xl:justify-start px-6 lg:px-0 ">
                 <h1 className='lg:text-3xl pb-3 text-purple1 text-center lg:text-left'>ALGUNAS TEMÁTICAS DE DESAYUNOS Y EXPERIENCIAS REALIZADAS</h1>
                 <ul className=''>
                     <li className="flex p-2 border-t-2 border-rosa1">
@@ -106,8 +106,8 @@ export const Tematicas = () => {
 
                 </ul>
             </div>
-            <div className="lg:w-[40%] mb-6 lg:mb-0  flex justify-center">
-                <img src={tematicas} alt="" className='h-full max-[640px]:max-w-[270px] max-[768px]:max-w-[290px] mx-auto  ' />
+            <div className="lg:w-[40%] mb-6 lg:mb-0  flex justify-center bg-sky-200 ">
+                <img src={tematicas} alt="" className='h-full max-[640px]:max-w-[270px] max-[768px]:max-w-[290px]   mx-auto lg:mx-0 lg:ml-auto ' />
             </div>
         </section>
     )
