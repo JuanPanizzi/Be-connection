@@ -34,11 +34,9 @@ export const Servicios = () => {
     ]
 
     return (
-        <section className="mt-16">
-            {/* <div className="text-center pb-10 ">
-        <h2 className="text-2xl lg:text-6xl font-thin sm:text-4xl">CONOCÉ MÁS SOBRE BE!</h2>
-      </div> */}
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 md:flex-row  gap-4 px-6">
+        <section className="xl:max-w-[2000px] mx-auto    mt-16">
+           
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 md:flex-row    gap-4 px-6">
                 {
                     servicios.map(({ imagen, titulo, p1, p2, ig1, ig2, italic , contacto }, index) => (
 
@@ -54,29 +52,6 @@ export const Servicios = () => {
                         key={index} />
                     ))
                 }
-
-                {/* Tarjeta 1 */}
-
-                {/* <div className="col-span-1   p-4  text-center">
-                    <img
-                        src={asesoramiento}
-                        alt="Imagen 1"
-                        className="w-full h-auto mb-4 rounded border-4 border-rosa1 min-[590px]:max-w-[490px] min-[590px]:mx-auto"
-                    />
-                    <div className='text-center lg:px-4'>
-
-                        <h3 className="sm:text-sm  lg:text-2xl md:text-justify lg:text-center  lora text-purple1  lg:px-1 ">ASESORAMIENTO DE IMAGEN </h3>
-                        <p className="">Con María Pinola y Nati Pierri</p>
-                        <p>@grupoimagenmariapinola</p>
-                        <p>@nataliapierricentrodeimagen</p>
-                        <p>Asesoras de imagen. Cursos y mentorías.</p>
-
-                        <p>+5411-4426-8008 / +54911-4429-2967</p>
-
-                    </div>
-                </div> */}
-
-
 
             </div>
         </section>

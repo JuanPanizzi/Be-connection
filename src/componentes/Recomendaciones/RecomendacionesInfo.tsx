@@ -22,7 +22,7 @@ export const RecomendacionesInfo = () => {
         { id: 8, titulo: "Holística", imagen: wellness , link: ''}
       ];
       return (
-        <section className='py-6 px-4 md:px-20'>
+        <section className='xl:max-w-[2000px] mx-auto xl:px-20   py-6 px-4 md:px-20'>
           <h1 className='text-2xl text-center md:text-3xl lg:text-6xl xl:text-7xl md:text-left'>RECOMENDACIONES BE!</h1>
           <h2 className='text-center sm:text-2xl  lg:text-4xl xl:text-5xl md:py-3 lg:py-6 text-purple1 md:text-left'>BASADOS EN NUESTRAS EXPERIENCIAS</h2>
           <p className=' text-xs text-sm md:text-xl xl:text-2xl text-center md:text-left'>

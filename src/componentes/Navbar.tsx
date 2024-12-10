@@ -21,7 +21,7 @@ export const Navbar = () => {
 
 
   return (
-    <nav className={`fixed top-0 w-full z-50   transition-colors duration-300 bg-black ${scrolled ? 'bg-opacity-80' : ' bg-opacity-80'}`}>
+    <nav className={`fixed top-0 w-full z-50   transition-colors duration-300 bg-black ${scrolled ? 'bg-opacity-80' : ' bg-opacity-50'}`}>
       <div className="container mx-auto flex h-full justify-between items-center ">
         {/* Logo */}
         <img src={logo} alt="Logo" className="h-full max-w-8 sm:max-w-16 mr-2" />
