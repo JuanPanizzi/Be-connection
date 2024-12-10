@@ -1,7 +1,9 @@
 import c1 from '../../beConnection_Assets/Carrousel/13.jpg';
 import c2 from '../../beConnection_Assets/Carrousel/10.jpg';
-import c3 from '../../beConnection_Assets/Carrousel/5.jpg'
-import c4 from '../../beConnection_Assets/Carrousel/4.png'
+import c3 from '../../beConnection_Assets/Carrousel/5.jpg';
+import c4 from '../../beConnection_Assets/Carrousel/4.png';
+import rosePrincipal from '../../beConnection_Assets/Carrousel/rosePrincipal.jpeg';
+
 import ImageGallery from 'react-image-gallery';
 import { useState } from 'react';
 
@@ -13,6 +15,10 @@ export const Carrousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const imagenes = [
+    {
+      original: rosePrincipal,
+      title: 'BIENVENIDOS A BE CONNECTION!'
+    },
     {
       original: c1,
       title: 'DESCUBRÍ LA MAGIA DE NUESTROS DESAYUNOS Y ENCUENTROS',
