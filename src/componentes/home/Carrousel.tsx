@@ -3,6 +3,7 @@ import c2 from '../../beConnection_Assets/Carrousel/10.jpg';
 import c3 from '../../beConnection_Assets/Carrousel/5.jpg';
 import c4 from '../../beConnection_Assets/Carrousel/4.png';
 import rosePrincipal from '../../beConnection_Assets/Carrousel/rosePrincipal.jpeg';
+import rosePrincipal2 from '../../beConnection_Assets/Carrousel/rosePrincipal2.jpeg';
 
 import ImageGallery from 'react-image-gallery';
 import { useState } from 'react';
@@ -17,7 +18,7 @@ export const Carrousel = () => {
   const imagenes = [
     {
       original: rosePrincipal,
-      title: 'BIENVENIDOS A BE CONNECTION!'
+      title: '¡BIENVENIDOS A BE CONNECTIONS!'
     },
     {
       original: c1,

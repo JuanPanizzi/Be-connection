@@ -28,7 +28,7 @@ export const RecomendacionesInfo = () => {
           <p className=' text-xs text-sm md:text-xl xl:text-2xl text-center md:text-left'>
             *Todos ellos formaron parte acompañando o participando en acciones o eventos junto a Be.
           </p>
-          <p className='text-xs text-sm md:text-xl xl:text-2xl text-center md:text-left'>Vale la pena conocerlos!</p>
+          <p className='text-xs text-sm md:text-xl xl:text-2xl text-center md:text-left'>¡Vale la pena conocerlos!</p>
           <div className='grid grid-cols-2 md:grid-cols-4 gap-4 py-6 '>
             {recomendaciones.map((recomendacion) => (
               <Link to={ recomendacion.link ? recomendacion.link : '' } className={`${recomendacion.titulo !== 'Imagen Personal' ? 'hover:cursor-default': 'hover:cursor-pointer'}`} >
