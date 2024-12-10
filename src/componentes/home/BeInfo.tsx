@@ -9,7 +9,7 @@ export const BeInfo = () => {
                     <h1 className="text-center sm:text-left  text-3xl   lg:text-6xl xl:text-7xl 2xl:text-7xl">SOBRE BE!</h1> 
                     <h2 className="text-center sm:text-left text-lg text-purple1 lg:text-[2rem] xl:text-[2.5rem] 2xl:text-[2.6rem] xl:leading-tight my-4  sm:my-6 ">DE QUÉ SE TRATA BE CONNECTIONS</h2>
                     <p className="text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl text-justify sm:text-left text-gray-700  montserrat ">
-                        Be Connections es una comunidad de mujeres en Nordelta que buscan generar conexiones, sinergías y amigas, de la manera más linda y divertida posible, disfrutando de desayunos, eventos y acciones junto a marcas que nos miman y nos encantan. Periódicamente realizamos desayunos temáticos: desde beauty & lifestyle a encuentros para emprendedoras y mujeres profesionales todas son oportunidades para conectar, hacer nuevas amigas o ampliar nuestra red de contactos.
+                        Be Connections es una comunidad de mujeres en Nordelta que buscan generar conexiones, sinergias y amigas, de la manera más linda y divertida posible, disfrutando de desayunos, eventos y acciones junto a marcas que nos miman y nos encantan. Periódicamente realizamos desayunos temáticos: desde beauty & lifestyle a encuentros para emprendedoras y mujeres profesionales todas son oportunidades para conectar, hacer nuevas amigas o ampliar nuestra red de contactos.
                     </p>
                 </div>
                 <div className="flex justify-center xl:justify-end  items-center   sm:w-full">
@@ -32,9 +32,9 @@ export const BeInfo = () => {
                     <h1 className="text-center sm:text-right  text-3xl lg:text-6xl xl:text-7xl 2xl:text-7xl">SOBRE ROSE</h1>
                     <h2 className="text-center sm:text-right text-lg text-purple1 lg:text-[2rem] xl:text-[2.5rem] 2xl:text-[2.6rem] xl:leading-tight my-4  md:my-6">¿QUIÉN ESTÁ DETRÁS DE BE CONNECTIONS?</h2>
                     <p className="text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl text-justify sm:text-right text-gray-700  montserrat">
-                    Soy Rose Alamo, Contadora y Lic. en Aministración con formación en Marketing y Publicidad.  Fui expatriada por 14 años donde gané experiencia y me enriquecí organizando encuentros para mujeres en diferentes ciudades, principalmente en Abu Dhabi, Emiratos Árabes. Al regresar a mi país, hace seis años, quise replicar lo mejor de lo vivido en cada ciudad (San Pablo, Abu Dhabi, Londres), creando experiencias únicas, para mujeres que aman verse bellas, valoran un estilo de vida saludable y sobre todo, desean conectar con otras mujeres, enriqueciéndose en cada encuentro unas de otras.
+                    Soy Rose Alamo, Contadora y Lic. en Administración con formación en Marketing y Publicidad. Fui expatriada por 14 años, donde gané experiencia y me enriquecí organizando encuentros para mujeres en diferentes ciudades, principalmente en Abu Dhabi, Emiratos Árabes. Al regresar a mi país, hace seis años, quise replicar lo mejor de lo vivido en cada ciudad (São Paulo, Abu Dhabi, Londres), creando experiencias únicas para mujeres que aman verse bellas, valoran un estilo de vida saludable y, sobre todo, desean conectar con otras mujeres, enriqueciéndose en cada encuentro unas a otras.
                     </p>
-                    <p className='text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl text-justify sm:text-right font-semibold text-purple1  montserrat mt-2 lg:mt-5'>Conocer las vivencias de cada una es muy enriquecedor!</p>
+                    <p className='text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl text-justify sm:text-right font-semibold text-purple1  montserrat mt-2 lg:mt-5'>¡Conocer las vivencias de cada una es muy enriquecedor!</p>
                 </div>
             </section>
         </article>

@@ -23,10 +23,10 @@ export const Servicios = () => {
         { imagen: makeUp, titulo: 'MAKE UP', p1: 'Auto-maquillaje y cursos de perfeccionamiento. Natalia U.', ig1: '@nataliaumakeup', ig2: '', p2: 'Asesoramiento personalizado o cursos grupales', contacto: '+5411 5954-9925' },
         { imagen: asesoramiento2, titulo: 'ASESORAMIENTO DE IMAGEN', p1: 'Con Any Casas', ig1: '@anuchicasas', ig2: '', p2: 'Asesoramiento personalizado. Personal shopper', contacto: '+5411 5164-2506' },
         { imagen: asesoramiento3, titulo: 'ASESORAMIENTO DE IMAGEN', p1: 'Con Flor Toro', ig1: '@fashiondebility', ig2: '', p2: 'Asesoramiento, cursos y personal shopper.', contacto: '+5411 4044-1307' },
-        { imagen: coaching, titulo: 'COACHING IMAGEN INTERIOR', p1: 'Con Magalí Sigal', ig1: '@magali_sigal', ig2: '', p2: 'Coach transgeneracional y consteladora familiar.', italic: '"Quien mira hacia afuera sueña, quien mira hacia adentro despierta"', contacto: 'magalisigal@gmail.com' },
+        { imagen: coaching, titulo: 'COACHING IMAGEN INTERIOR', p1: 'Con Magalí Sigal', ig1: '@magali_sigal', ig2: '', p2: 'Coach transgeneracional y consteladora familiar.', italic: '“Quien mira hacia afuera sueña, quien mira hacia adentro despierta.”', contacto: 'magalisigal@gmail.com' },
         { imagen: asesoramiento4, titulo: 'ASESORAMIENTO DE IMAGEN', p1: 'Con Ana Cristiani', ig1: '@anacristiani_fashion', ig2: '', p2: 'Coach de imagen integral y personal shopper.', contacto: '+5411 6420-1163' },
         { imagen: actitud, titulo: 'TALLER DE ACTITUD', p1: 'Con Sol Villarreal', ig1: '@solvillarrealok', ig2: '', p2: 'Taller bases del modelaje para tu vida: incluye actitud - seguridad - imagen personal y redes (cómo posar).', contacto: '@solvillarrealok' },
-        { imagen: asesoria, titulo: 'ASESORIA INTEGRAL Y OUTFITS', p1: 'Con Valeria Parodi', ig1: '', ig2: '', p2: 'Ofrece cursos y mentorías además de su propia marca de ropa.', contacto: '@valeriaparodi.style / @val.parodi' },
+        { imagen: asesoria, titulo: 'ASESORÍA INTEGRAL Y OUTFITS', p1: 'Con Valeria Parodi', ig1: '', ig2: '', p2: 'Ofrece cursos y mentorías además de su propia marca de ropa.', contacto: '@valeriaparodi.style / @val.parodi' },
         { imagen: makeUp2, titulo: 'MAKE-UP', p1: 'Con Alexia', ig1: '@alexiajaet', ig2: '', p2: 'Asesoramiento y workshops.', contacto: '@alexiajaet' },
         { imagen: coaching2, titulo: 'COACHING INDIVIDUAL', p1: 'Con Andrea Tellechea', ig1: '@andreatellecheacoach', ig2: '', p2: 'Andrea es Lic. en Administración - Coach ontológico profesional - Especialista en PNL.', contacto: 'andreatelcoach@gmail.com' },
 
@@ -34,11 +34,9 @@ export const Servicios = () => {
     ]
 
     return (
-        <section className="mt-16">
-            {/* <div className="text-center pb-10 ">
-        <h2 className="text-2xl lg:text-6xl font-thin sm:text-4xl">CONOCÉ MÁS SOBRE BE!</h2>
-      </div> */}
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 md:flex-row  gap-4 px-6">
+        <section className="xl:max-w-[2000px] mx-auto    mt-16">
+           
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 md:flex-row    gap-4 px-6">
                 {
                     servicios.map(({ imagen, titulo, p1, p2, ig1, ig2, italic , contacto }, index) => (
 
@@ -54,29 +52,6 @@ export const Servicios = () => {
                         key={index} />
                     ))
                 }
-
-                {/* Tarjeta 1 */}
-
-                {/* <div className="col-span-1   p-4  text-center">
-                    <img
-                        src={asesoramiento}
-                        alt="Imagen 1"
-                        className="w-full h-auto mb-4 rounded border-4 border-rosa1 min-[590px]:max-w-[490px] min-[590px]:mx-auto"
-                    />
-                    <div className='text-center lg:px-4'>
-
-                        <h3 className="sm:text-sm  lg:text-2xl md:text-justify lg:text-center  lora text-purple1  lg:px-1 ">ASESORAMIENTO DE IMAGEN </h3>
-                        <p className="">Con María Pinola y Nati Pierri</p>
-                        <p>@grupoimagenmariapinola</p>
-                        <p>@nataliapierricentrodeimagen</p>
-                        <p>Asesoras de imagen. Cursos y mentorías.</p>
-
-                        <p>+5411-4426-8008 / +54911-4429-2967</p>
-
-                    </div>
-                </div> */}
-
-
 
             </div>
         </section>

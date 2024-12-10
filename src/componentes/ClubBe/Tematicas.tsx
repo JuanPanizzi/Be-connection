@@ -21,7 +21,7 @@ export const Tematicas = () => {
                                 <rect x="-1" y="10.6318" width="16.4497" height="16.4497" rx="2.86083" transform="rotate(-45 -1 10.6318)" fill="#F0C4DD" />
                             </svg>
                         </div>
-                        <span className="ml-2 text-base lg:text-lg xl:text-xl">Baras de acces, tarot, círculo de mujeres.</span>
+                        <span className="ml-2 text-base lg:text-lg xl:text-xl">Barras de Acces, tarot, círculo de mujeres.</span>
                     </li>
                     <li className="flex p-2 border-t-2 border-rosa1">
                         <div>

@@ -3,6 +3,7 @@ import c2 from '../../beConnection_Assets/Carrousel/10.jpg';
 import c3 from '../../beConnection_Assets/Carrousel/5.jpg';
 import c4 from '../../beConnection_Assets/Carrousel/4.png';
 import rosePrincipal from '../../beConnection_Assets/Carrousel/rosePrincipal.jpeg';
+import rosePrincipal2 from '../../beConnection_Assets/Carrousel/rosePrincipal2.jpeg';
 
 import ImageGallery from 'react-image-gallery';
 import { useState } from 'react';
@@ -17,7 +18,7 @@ export const Carrousel = () => {
   const imagenes = [
     {
       original: rosePrincipal,
-      title: 'BIENVENIDOS A BE CONNECTION!'
+      title: '¡BIENVENIDOS A BE CONNECTIONS!'
     },
     {
       original: c1,
@@ -42,7 +43,7 @@ export const Carrousel = () => {
   };
   return (
     <section className="relative w-full flex   justify-center bg-black text-white">
-      <div className=" absolute top-7 min-[330px]:top-9  min-[380px]:top-12  min-[500px]:top-28 sm:top-44 md:top-52 lg:top-36 xl:top-72  z-10 text-center p-4 lg:p-4 ">
+      <div className=" absolute top-9 min-[330px]:top-14  min-[380px]:top-12  min-[500px]:top-28 sm:top-44 md:top-52 lg:top-36 xl:top-[72] 2xl:top-[15rem]  z-10 text-center p-4 lg:p-4 ">
         <h1
           className="text-base min-[330px]:text-lg  min-[380px]:text-2xl min-[500px]:text-xl sm:text-2xl md:text-3xl lg:text-[4.2rem] leading-relaxed text-white viaoda "
           style={{
@@ -53,16 +54,11 @@ export const Carrousel = () => {
           {imagenes[currentIndex].title}
         </h1>
 
-        {/* <button className=' lg:max-w-[300px] text-white rounded border-[1.5px] lg:border-[3px] border-white w-20 sm:w-28 p-1 mt-3 lg:p-3 lg:w-72 text-[0.7rem] min-[500px]:text-[0.7rem] sm:text-[0.8rem] lg:text-xl lg:mt-12   '
-          style={{ boxShadow: '2px 2px 10px black' }} > */}
-            {/* <a href="#footer">
-            SUMATE
-            </a> */}
-            {/* </button> */}
-          <HashLink smooth to="/#footer" className='carrousel-button inline-block lg:max-w-[300px] text-white rounded border-[1.5px] lg:border-[3px] border-white w-20 sm:w-28 p-1 mt-3 lg:p-3 lg:w-72  text-[0.5rem] min-[330px]:text-[0.7rem]  min-[500px]:text-[0.7rem] sm:text-[0.8rem] lg:text-xl lg:mt-12   '
-          style={{ boxShadow: '2px 2px 10px black' }} >SUMATE</HashLink>
 
       </div>
+       
+          <HashLink smooth to="/#footer" className='absolute top-28 min-[330px]:top-36  min-[380px]:top-40  min-[500px]:top-48 sm:top-64 md:top-80 lg:top-[25rem] xl:top-[30rem] 2xl:top-[34rem]  z-10  text-white rounded border-[1.5px] lg:border-[3px] border-white w-20 sm:w-28 p-1 mt-3 lg:p-3 lg:w-72  text-[0.5rem] min-[330px]:text-[0.7rem]  min-[500px]:text-[0.7rem] sm:text-[0.8rem] lg:text-xl text-center lg:mt-12   '
+          style={{ boxShadow: '2px 2px 10px black' }} >SUMATE</HashLink>
 
 
       <ImageGallery
@@ -75,8 +71,8 @@ export const Carrousel = () => {
         autoPlay={true}
         additionalClass="custom-gallery"
         onSlide={handleSlideChange}
-        slideDuration={1500}
-        slideInterval={7000}
+        slideDuration={1000}
+        slideInterval={1000}
       />
     </section>
   );

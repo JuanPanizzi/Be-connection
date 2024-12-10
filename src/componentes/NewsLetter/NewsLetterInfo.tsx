@@ -9,7 +9,7 @@ export const NewsLetterInfo = () => {
     <div className='lg:w-[60%] px-1 sm:px-5 lg:py-10 lg:px-12  md:w-4/5 md:mx-auto '>
 
           <h1 className='text-2xl sm:text-3xl lg:text-6xl xl:text-7xl text-center lg:text-left'>BE NEWS!</h1>
-          <h2 className='text-xl sm:text-2xl lg:text-4xl xl:text-5xl md:py-6 text-purple1 text-center lg:text-left'>NO TE PIERDAS EL MEJOR NEWSLETTER!</h2>
+          <h2 className='text-xl sm:text-2xl lg:text-4xl xl:text-5xl md:py-6 text-purple1 text-center lg:text-left'>¡NO TE PIERDAS EL MEJOR NEWSLETTER!</h2>
           <p className='text-base md:text-base xl:text-xl montserrat text-center lg:text-left'>
           Con invitaciones, novedades de marcas amigas y la posibilidad de acceder a descuentos u obsequios especiales para nuestra comunidad.
           </p>
