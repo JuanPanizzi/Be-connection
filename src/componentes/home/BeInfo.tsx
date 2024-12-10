@@ -16,7 +16,7 @@ export const BeInfo = () => {
                     <img
                         src={beInfo1}
                         alt="beConnections"
-                        className=" w-full sm:w-[90%] lg:max-w-full xl:max-w-[80%]  sm:ml-auto max-h-[300px] sm:max-h-[320px]  lg:max-h-[440px] xl:max-h-[490px] 2xl:max-h-[550px] object-top object-cover px-5 sm:px-0 py-0   "
+                        className=" w-full  sm:w-[90%] lg:max-w-full xl:max-w-[80%]  sm:ml-auto max-h-[250px] sm:max-h-[320px]  lg:max-h-[440px] xl:max-h-[490px] 2xl:max-h-[550px] object-top object-cover px-5 sm:px-0 py-0   "
                     />
                 </div>
             </section>
