@@ -1,7 +1,9 @@
 import c1 from '../../beConnection_Assets/Carrousel/13.jpg';
 import c2 from '../../beConnection_Assets/Carrousel/10.jpg';
-import c3 from '../../beConnection_Assets/Carrousel/5.jpg'
-import c4 from '../../beConnection_Assets/Carrousel/4.png'
+import c3 from '../../beConnection_Assets/Carrousel/5.jpg';
+import c4 from '../../beConnection_Assets/Carrousel/4.png';
+import rosePrincipal from '../../beConnection_Assets/Carrousel/rosePrincipal.jpeg';
+
 import ImageGallery from 'react-image-gallery';
 import { useState } from 'react';
 
@@ -13,6 +15,10 @@ export const Carrousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const imagenes = [
+    {
+      original: rosePrincipal,
+      title: 'BIENVENIDOS A BE CONNECTION!'
+    },
     {
       original: c1,
       title: 'DESCUBRÍ LA MAGIA DE NUESTROS DESAYUNOS Y ENCUENTROS',
@@ -36,7 +42,7 @@ export const Carrousel = () => {
   };
   return (
     <section className="relative w-full flex   justify-center bg-black text-white">
-      <div className=" absolute top-7 min-[330px]:top-9  min-[380px]:top-12  min-[500px]:top-28 sm:top-44 md:top-52 lg:top-36 z-10 text-center p-4 lg:p-4 ">
+      <div className=" absolute top-7 min-[330px]:top-9  min-[380px]:top-12  min-[500px]:top-28 sm:top-44 md:top-52 lg:top-36 xl:top-72  z-10 text-center p-4 lg:p-4 ">
         <h1
           className="text-base min-[330px]:text-lg  min-[380px]:text-2xl min-[500px]:text-xl sm:text-2xl md:text-3xl lg:text-[4.2rem] leading-relaxed text-white viaoda "
           style={{
@@ -69,8 +75,8 @@ export const Carrousel = () => {
         autoPlay={true}
         additionalClass="custom-gallery"
         onSlide={handleSlideChange}
-        slideDuration={1000}
-        slideInterval={3000}
+        slideDuration={1500}
+        slideInterval={7000}
       />
     </section>
   );
