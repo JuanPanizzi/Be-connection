@@ -1,6 +1,6 @@
 // import beInfo1 from '../../beConnection_Assets/beInfo/beInfo1.jpg';
 import rose from '../../beConnection_Assets/beInfo/rose.jpg';
-import beInfo1   from '../../beConnection_Assets/Carrousel/rosePrincipal2.jpeg';
+import beInfo1   from '../../beConnection_Assets/Carrousel/rosePrincipal.jpeg';
 
 export const BeInfo = () => {
     return (
